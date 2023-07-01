@@ -8,19 +8,18 @@ setuptools.setup(
     version = "0.0.1",
     author = "Ryan Wiecz",
     author_email = "ryan@ryanwiecz.codes",
+    install_requires= ["requests"],
     description = "An unofficial package for interacting with the ClassCharts API",
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url = "package URL",
+    url = "https://github.com/itsnotrin/PyClassCharts",
     project_urls = {
-        "Bug Tracker": "https://github.com/itsnotrin/pyclasscharts/issues",
+        "Bug Tracker": "https://github.com/itsnotrin/PyClassCharts/issues",
     },
     classifiers = [
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir = {"": "src"},
-    packages = setuptools.find_packages(where="src"),
-    python_requires = ">=3.6"
+    python_requires = ">=3.7.0"
 )
