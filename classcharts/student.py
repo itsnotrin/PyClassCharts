@@ -1,4 +1,4 @@
-import utils
+import classcharts.utils as utils
 import requests
 
 def getTimetable(code: str, dob: str, userid: int, day: int, month: int, year: int):
